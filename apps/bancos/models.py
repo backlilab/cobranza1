@@ -33,4 +33,4 @@ class CuentaBancaria(BaseModel):
         verbose_name = 'Numeros de cuenta'
 
     def __str__(self):
-        return self.banco
+        return self.banco.nombre

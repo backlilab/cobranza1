@@ -32,4 +32,4 @@ class Abono(BaseModel):
         verbose_name = 'Abonos'
 
     def __str__(self):
-        return self.cliente
+        return self.cuenta_bancaria.numero
