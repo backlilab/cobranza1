@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'apps.common',
     'apps.clientes',
     'apps.bancos',
-    'apps.abonos',
+    'apps.extractos',
+    'apps.planillas',
 ]
 
 MIDDLEWARE = [

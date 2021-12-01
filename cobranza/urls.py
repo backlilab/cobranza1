@@ -31,7 +31,7 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
-    path('', include('apps.abonos.urls', namespace='abonos')),
+    path('', include('apps.planillas.urls', namespace='planillas')),
     path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('admin/', admin.site.urls),
 ]
